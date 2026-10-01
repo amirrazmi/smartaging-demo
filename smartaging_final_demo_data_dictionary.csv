@@ -1,0 +1,48 @@
+Column,Group
+Participant_ID,Participant / timeline
+Profile,Participant / timeline
+Visit,Participant / timeline
+Month,Participant / timeline
+Age,Participant / timeline
+Sex,Participant / timeline
+Height_cm,Participant / timeline
+Gait_speed_m_s,Camera / Function
+Cadence_steps_min,Camera / Function
+Gait_symmetry_pct,Camera / Function
+Turn_time_s,Camera / Function
+Five_times_sit_to_stand_s,Camera / Function
+Resting_HR_bpm,Wearable / Physiology
+HRV_ms,Wearable / Physiology
+Sleep_h,Wearable / Physiology
+Daily_steps,Wearable / Physiology
+VO2max_est_ml_kg_min,Wearable / Physiology
+Fasting_glucose_mmol_L,Blood / Biomarkers
+HbA1c_pct,Blood / Biomarkers
+Fasting_insulin_uIU_mL,Blood / Biomarkers
+Triglycerides_mmol_L,Blood / Biomarkers
+HDL_mmol_L,Blood / Biomarkers
+LDL_mmol_L,Blood / Biomarkers
+Total_cholesterol_mmol_L,Blood / Biomarkers
+ApoB_g_L,Blood / Biomarkers
+hsCRP_mg_L,Blood / Biomarkers
+ALT_U_L,Blood / Biomarkers
+Vitamin_D_ng_mL,Blood / Biomarkers
+Weight_kg,Body Composition
+BMI,Body Composition
+Waist_cm,Body Composition
+Body_fat_pct,Body Composition
+BIA_Skeletal_muscle_kg,Body Composition
+BIA_Visceral_fat_index,Body Composition
+Function_issue_score,SmartAging demo engine
+Physiology_issue_score,SmartAging demo engine
+Metabolic_issue_score,SmartAging demo engine
+Body_issue_score,SmartAging demo engine
+Overall_demo_score,SmartAging demo engine
+Overall_flag,SmartAging demo engine
+Priority_1,SmartAging demo engine
+Priority_2,SmartAging demo engine
+Recommended_action_1,SmartAging demo engine
+Recommended_action_2,SmartAging demo engine
+Follow_up,SmartAging demo engine
+SmartAging_insight,SmartAging demo engine
+Intervention_marker,SmartAging demo engine
