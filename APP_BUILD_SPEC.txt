@@ -1,0 +1,40 @@
+SMARTAGING FULL-LOOP DEMO APP SPEC
+
+Purpose: pitch/demo prototype using synthetic data only. No clinical validation, diagnosis, treatment efficacy or medical-device claims.
+
+LANDING:
+- 100 synthetic participants | 12 months | 600 assessments | 4 domains
+- Profile filter + Participant ID + Visit selector
+- Permanent banner: “Synthetic demonstration cohort — not clinical validation or medical diagnosis.”
+
+PATIENT VIEW:
+1) Header: Participant, profile, visit.
+2) Four domain cards:
+   Camera/Function; Wearable/Physiology; Blood/Metabolic; Body Composition/BIA.
+   Each card: issue score 0–100 (DEMO severity only), flag, baseline-to-current trend.
+3) Overall demo score + flag.
+   IMPORTANT: label “Demo prioritization score — not a validated clinical risk score.”
+4) “What changed?”: show top 2 weighted domains.
+5) “Recommended next actions”: use Recommended_action_1/2 from CSV.
+6) “Re-measure”: show Follow_up.
+7) Full-loop trajectory:
+   Baseline -> Detect -> Recommend -> Re-measure -> Response.
+8) Intervention Response profile:
+   Month 6 marker = “AI-guided preventive action plan (SIMULATED)”.
+   Compare Month 9/12 with Month 6. Say “improved/stabilized after simulated action plan”, never “AI caused improvement.”
+
+WEIGHTS FOR DEMO PRIORITIZATION:
+- Wearable/Physiology 30%
+- Blood/Metabolic 30%
+- Body Composition 25%
+- Camera/Function 15%
+These weights are product-design assumptions for the demo, NOT validated clinical weights.
+
+AI STRATEGY:
+- Detection/flagging = transparent longitudinal rules.
+- Recommendation content = curated evidence-based action library + safety/escalation rules.
+- Generative AI = explain/prioritize/personalize wording, not autonomous diagnosis or prescribing.
+
+HERO DEMO:
+Use an Early Change participant to show subtle asynchronous changes.
+Then switch to Intervention Response to show Month 6 simulated plan and Month 9/12 follow-up.

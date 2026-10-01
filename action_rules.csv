@@ -1,0 +1,5 @@
+Domain,Weight_pct,Flag_label,Action,Follow_up
+Physiology,30,Recovery / activity,"Prioritize regular activity, sleep consistency and recovery; investigate persistent deterioration with an appropriate professional.",Review wearable trend over the next measurement window.
+Metabolic,30,Metabolic trend,"Prioritize nutrition, activity and weight-management habits; confirm persistent/abnormal laboratory changes with an appropriate clinician.",Repeat relevant laboratory measures as appropriate.
+Body,25,Body composition,"Prioritize resistance exercise, activity and nutrition aimed at preserving muscle and reducing central adiposity.",Repeat waist/BIA under standardized conditions.
+Function,15,Function / mobility,"Maintain or progressively build walking, balance and resistance activity; reassess function.",Repeat camera/function assessment.
